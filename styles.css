@@ -172,14 +172,12 @@ nav a:hover {
     flex-direction: column;
     height: 100%;
     position: relative;
+    border-top: 5px solid var(--primary-blue);
 }
 
 .module-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(58, 111, 178, 0.15);
-}
-
-border-top: 5px solid var(--primary-blue);
 }
 
 .module-card .duration {
