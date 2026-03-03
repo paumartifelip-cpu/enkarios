@@ -236,6 +236,12 @@ nav a:hover {
     transform: scale(1.05);
 }
 
+.btn-small {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
