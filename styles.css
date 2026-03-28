@@ -41,11 +41,15 @@ header {
 }
 
 .logo {
-    font-weight: 900;
-    font-size: 1.4rem;
-    color: var(--blue);
     text-decoration: none;
-    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
 }
 
 nav { display: flex; flex-wrap: wrap; gap: 0.2rem; }
@@ -123,6 +127,37 @@ nav a:hover { color: var(--blue); }
     text-transform: uppercase;
     color: var(--blue);
     margin-bottom: 0.8rem;
+}
+
+/* ─── ALCANCES DEL CURSO ─── */
+.alcances-section {
+    background: linear-gradient(135deg, #e8f0fe 0%, #f0f4ff 100%);
+    border-top: 1px solid #c5d5f8;
+    border-bottom: 1px solid #c5d5f8;
+    padding: 4rem 5%;
+}
+
+.alcances-inner {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alcances-inner h2 {
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+    font-weight: 900;
+    color: var(--dark);
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
+
+.alcances-inner p {
+    font-size: 1.05rem;
+    color: var(--mid);
+    line-height: 1.65;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 /* ─── QUIÉNES SOMOS ─── */
@@ -334,6 +369,17 @@ nav a:hover { color: var(--blue); }
 .cta-section > p {
     color: rgba(255,255,255,0.6);
     font-size: 1.05rem;
+    margin-bottom: 0;
+}
+
+/* ─── FOOTER ─── */
+.site-footer {
+    background: #0a0a0a;
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    padding: 1.6rem 5%;
+    font-size: 0.85rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 /* ─── BUTTONS ─── */
